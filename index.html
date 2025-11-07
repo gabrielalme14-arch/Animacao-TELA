@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎨 Animação Canvas Interativa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 Animação Canvas Interativa</h1>
+    <p class="subtitle">Círculos que se movem e mudam de cor — toque ou clique para interagir!</p>
+
+    <canvas id="canvas"></canvas>
+
+    <div class="controls">
+      <button id="btnAdd">➕ Adicionar Círculo</button>
+      <button id="btnClear">🗑️ Limpar Tudo</button>
+      <button id="btnPause">⏯️ Pausar/Retomar</button>
+      <button id="btnSpeed">⚡ Mudar Velocidade</button>
+    </div>
+
+    <div class="info">
+      <p><strong>🖱️ Clique ou toque no canvas</strong> para criar novos círculos</p>
+      <p><strong>🎨 Círculos mudam de cor</strong> automaticamente</p>
+      <p><strong>✨ Efeitos de colisão</strong> com as bordas</p>
+      <p>Total de círculos: <strong id="contador">0</strong></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
